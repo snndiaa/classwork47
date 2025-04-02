@@ -14,7 +14,6 @@ int* remove_last_element(int* arr, int& size)
 {
     if (size <= 1) 
     {
-        delete[] arr;
         return nullptr;
     }
 
